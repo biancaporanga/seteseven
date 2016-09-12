@@ -1,0 +1,62 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:400,700';
+
+body{
+	background-color: #201c1a;
+	font-family: 'Roboto Slab', serif;
+	color: #bbbbbb;
+	font-weight: normal;
+}
+//-------------------TOPO----------------
+.bg-topo{
+	background: linear-gradient(to bottom, #131313, #201c1a),
+	            -webkit-linear-gradient(bottom, #131313 , #201c1a),
+                -o-linear-gradient(bottom, #131313, #201c1a),
+                -moz-linear-gradient(bottom, #131313, #201c1a);
+}
+
+header{
+	height: 850px;
+}
+
+header img{	
+	margin-right: 10px;
+}
+
+span{
+	display: inline-block;
+}
+.contato-row{
+	height: 210px;
+	margin-top: 20px;
+}
+
+.contato{
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 59px;
+	padding-left: 10%;
+}
+
+.logo{
+	text-align: center;	
+}
+
+.telefone{
+	font-size: 18px;
+	margin-top: 47px;
+	text-align: right;
+	padding-right: 10%;
+}
+//-------------------FRASES----------------
+.frase .frase-sm{
+	font-size: 24px;
+	background-image: url("../assets/img/hot-line.png");
+}
+.frase-destaque{
+	font-size: 40px;
+	margin-top: 10px;
+}
+.laranja{
+	color: #d68500;
+}
+//------------------- FIM CAPA----------------
